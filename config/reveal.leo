@@ -32,8 +32,10 @@
 <v t="leo.20180827201621.15"><vh>week11</vh></v>
 </v>
 </v>
-<v t="leo.20181007225321.1" a="E"><vh>week2</vh>
-<v t="leo.20181007225409.1"><vh>week2</vh></v>
+<v t="leo.20181008002012.1" a="E"><vh>week2</vh>
+<v t="leo.20181008002012.2" a="E"><vh>導入數學符號與方程式</vh>
+<v t="leo.20181008002012.3"><vh>week22</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -179,7 +181,9 @@ Created by [KMOLab](http://lab.kmol.info/)
 "python wsgi.py"就可進入8443(遠端)。
 
 更改完成過後就直接git add/commit/push
-就完成更新及維護!</t>
+就完成更新及維護!
+
+</t>
 <t tx="leo.20180827201621.2"></t>
 <t tx="leo.20180827201621.3">@language xml
 @tabwidth -4
@@ -274,22 +278,39 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20181007225321.1">&lt;section&gt;
+<t tx="leo.20181008002012.1">&lt;section&gt;
 @others
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20181007225409.1"># week 1
+<t tx="leo.20181008002012.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
 
-在第一周先git clone 網址並建立自己的網站，
-克隆完成後綁定適用者的名稱和密碼。
 
-接下來在SciTE上拉入http-serer.py執行，
-就可以進入8443(近端)看到自己的網誌，如果要更改
-那就進入自己的資料夾中在命令列打上
-"python wsgi.py"就可進入8443(遠端)。
 
-更改完成過後就直接git add/commit/push
-就完成更新及維護!</t>
+						
+</t>
+<t tx="leo.20181008002012.3"># week 2
+
+如何以 ShareX 取圖:
+
+截圖ctrl+print screen
+
+螢幕開始/停止錄製shift+print screen
+
+如何管理 CMSimfly 作業倉儲:
+
+首先進入8443(近端)按下edit開始編輯
+
+但要注意頁面的分層是有順序性的!
+
+編輯完成後按generate_pages推上8444(遠端)
+
+看完之後沒問題就用git add ./commit/push推到github上面
+</t>
 </tnodes>
 </leo_file>
